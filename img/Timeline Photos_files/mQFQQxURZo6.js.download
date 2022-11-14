@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["\/hY1u"]); }
+
+__d("MUFICommentTypingIndicator.react",["cx","fbt","MUFITypingAnimation.react","React","joinClasses"],(function(a,b,c,d,e,f,g,h){"use strict";var i=b("React");function a(a){a=a.className;return i.jsxs("div",{className:b("joinClasses")(a,"_2jc"),children:[i.jsx(b("MUFITypingAnimation.react"),{className:"_2je"}),i.jsx("span",{className:"_2jf",children:i.jsx("div",{className:"_2jg",children:h._("Someone is typing a comment\u2026")})})]})}e.exports=a}),null);

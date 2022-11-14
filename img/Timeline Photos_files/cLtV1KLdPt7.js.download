@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["qBz\/B"]); }
+
+__d("MUFICommentAuthorUtil",["MLiveData","ex"],(function(a,b,c,d,e,f){"use strict";function g(a){a=b("MLiveData").get(a).getData();a=a.author;return a}a={hasCommentAuthor:function(a){return!!g(a)},getCommentAuthor:function(a){a=g(a);return a},getUniqueAuthors:function(a){var b={},c=[];a.forEach(function(a){if(!a)return;else if(a.id){if(Object.prototype.hasOwnProperty.call(b,a.id))return;b[a.id]=!0}c.push(a)});return c},isAuthorFriend:function(a){return!!(a&&a.is_friend)},isAuthorViewer:function(a){return!!(a&&a.is_viewer)},getAuthorShortName:function(a){return a&&(a.short_name||a.name)||null}};e.exports=a}),null);

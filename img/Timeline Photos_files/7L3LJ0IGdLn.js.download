@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["oXpKN"]); }
+
+__d("MUFITypingAnimation.react",["cx","MUFITypingAnimationConfig","React","joinClasses"],(function(a,b,c,d,e,f,g){"use strict";var h=b("React");a=function(a){babelHelpers.inheritsLoose(c,a);function c(){return a.apply(this,arguments)||this}var d=c.prototype;d.render=function(){var a=b("joinClasses")("_3gq8",this.props.dotClass),c=b("joinClasses")(b("MUFITypingAnimationConfig").canAnimate?"_33qc":"",this.props.className);return h.jsxs("div",{className:c,children:[h.jsx("div",{className:a}),h.jsx("div",{className:a}),h.jsx("div",{className:a})]})};return c}(h.Component);e.exports=a}),null);

@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["xDp+g"]); }
+
+__d("MNotificationsImpressionLogger",["MRequest"],(function(a,b,c,d,e,f){"use strict";function a(a){var c=new(b("MRequest"))("/a/jewel_notifications_read.php");c.addData({ids:a,count:a.length,seen:!0});c.send()}e.exports={markSeenOnDisplay:a}}),null);

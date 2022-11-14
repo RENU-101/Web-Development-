@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["eSaE6"]); }
+
+__d("MUFITypingIndicatorPill.react",["cx","MUFICommentListAbstractPill.react","MUFITypingAnimation.react","React","prop-types"],(function(a,b,c,d,e,f,g){"use strict";var h=b("React");a=function(a){babelHelpers.inheritsLoose(c,a);function c(){return a.apply(this,arguments)||this}var d=c.prototype;d.render=function(){return h.jsx(b("MUFICommentListAbstractPill.react"),{className:"_5bvi",onClick:this.props.onClick,children:h.jsx(b("MUFITypingAnimation.react"),{className:"_5bxh",dotClass:"_5bxi"})})};return c}(h.Component);a.propTypes={onClick:b("prop-types").func};e.exports=a}),null);

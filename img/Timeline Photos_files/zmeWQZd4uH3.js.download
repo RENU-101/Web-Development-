@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["VMFYD"]); }
+
+__d("MNTAnnounceActionHandler",["Stratcom"],(function(a,b,c,d,e,f){a={performAction:function(a){b("Stratcom").invoke(a.key,null,a.data)}};e.exports=a}),null);
